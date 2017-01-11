@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD5049C31E26202200FA4A22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5049C21E26202200FA4A22 /* main.m */; };
+		BD5049C61E26202200FA4A22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5049C51E26202200FA4A22 /* AppDelegate.m */; };
+		BD5049C91E26202200FA4A22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5049C81E26202200FA4A22 /* ViewController.m */; };
+		BD5049CC1E26202300FA4A22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5049CA1E26202300FA4A22 /* Main.storyboard */; };
+		BD5049CE1E26202300FA4A22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5049CD1E26202300FA4A22 /* Assets.xcassets */; };
+		BD5049D11E26202300FA4A22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5049CF1E26202300FA4A22 /* LaunchScreen.storyboard */; };
+		BD5049DC1E26202400FA4A22 /* YZXCircularDiagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5049DB1E26202400FA4A22 /* YZXCircularDiagramTests.m */; };
+		BD5049E71E26202400FA4A22 /* YZXCircularDiagramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5049E61E26202400FA4A22 /* YZXCircularDiagramUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD5049D81E26202400FA4A22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5049B61E26202100FA4A22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD5049BD1E26202100FA4A22;
+			remoteInfo = YZXCircularDiagram;
+		};
+		BD5049E31E26202400FA4A22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5049B61E26202100FA4A22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD5049BD1E26202100FA4A22;
+			remoteInfo = YZXCircularDiagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD5049BE1E26202100FA4A22 /* YZXCircularDiagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZXCircularDiagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5049C21E26202200FA4A22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD5049C41E26202200FA4A22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD5049C51E26202200FA4A22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD5049C71E26202200FA4A22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD5049C81E26202200FA4A22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD5049CB1E26202300FA4A22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD5049CD1E26202300FA4A22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD5049D01E26202300FA4A22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD5049D21E26202400FA4A22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5049D71E26202400FA4A22 /* YZXCircularDiagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZXCircularDiagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5049DB1E26202400FA4A22 /* YZXCircularDiagramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZXCircularDiagramTests.m; sourceTree = "<group>"; };
+		BD5049DD1E26202400FA4A22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5049E21E26202400FA4A22 /* YZXCircularDiagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZXCircularDiagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5049E61E26202400FA4A22 /* YZXCircularDiagramUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZXCircularDiagramUITests.m; sourceTree = "<group>"; };
+		BD5049E81E26202500FA4A22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD5049BB1E26202100FA4A22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5049D41E26202400FA4A22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5049DF1E26202400FA4A22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD5049B51E26202100FA4A22 = {
+			isa = PBXGroup;
+			children = (
+				BD5049C01E26202200FA4A22 /* YZXCircularDiagram */,
+				BD5049DA1E26202400FA4A22 /* YZXCircularDiagramTests */,
+				BD5049E51E26202400FA4A22 /* YZXCircularDiagramUITests */,
+				BD5049BF1E26202200FA4A22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD5049BF1E26202200FA4A22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD5049BE1E26202100FA4A22 /* YZXCircularDiagram.app */,
+				BD5049D71E26202400FA4A22 /* YZXCircularDiagramTests.xctest */,
+				BD5049E21E26202400FA4A22 /* YZXCircularDiagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD5049C01E26202200FA4A22 /* YZXCircularDiagram */ = {
+			isa = PBXGroup;
+			children = (
+				BD5049C41E26202200FA4A22 /* AppDelegate.h */,
+				BD5049C51E26202200FA4A22 /* AppDelegate.m */,
+				BD5049C71E26202200FA4A22 /* ViewController.h */,
+				BD5049C81E26202200FA4A22 /* ViewController.m */,
+				BD5049CA1E26202300FA4A22 /* Main.storyboard */,
+				BD5049CD1E26202300FA4A22 /* Assets.xcassets */,
+				BD5049CF1E26202300FA4A22 /* LaunchScreen.storyboard */,
+				BD5049D21E26202400FA4A22 /* Info.plist */,
+				BD5049C11E26202200FA4A22 /* Supporting Files */,
+			);
+			path = YZXCircularDiagram;
+			sourceTree = "<group>";
+		};
+		BD5049C11E26202200FA4A22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD5049C21E26202200FA4A22 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD5049DA1E26202400FA4A22 /* YZXCircularDiagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD5049DB1E26202400FA4A22 /* YZXCircularDiagramTests.m */,
+				BD5049DD1E26202400FA4A22 /* Info.plist */,
+			);
+			path = YZXCircularDiagramTests;
+			sourceTree = "<group>";
+		};
+		BD5049E51E26202400FA4A22 /* YZXCircularDiagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD5049E61E26202400FA4A22 /* YZXCircularDiagramUITests.m */,
+				BD5049E81E26202500FA4A22 /* Info.plist */,
+			);
+			path = YZXCircularDiagramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD5049BD1E26202100FA4A22 /* YZXCircularDiagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5049EB1E26202500FA4A22 /* Build configuration list for PBXNativeTarget "YZXCircularDiagram" */;
+			buildPhases = (
+				BD5049BA1E26202100FA4A22 /* Sources */,
+				BD5049BB1E26202100FA4A22 /* Frameworks */,
+				BD5049BC1E26202100FA4A22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZXCircularDiagram;
+			productName = YZXCircularDiagram;
+			productReference = BD5049BE1E26202100FA4A22 /* YZXCircularDiagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD5049D61E26202400FA4A22 /* YZXCircularDiagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5049EE1E26202500FA4A22 /* Build configuration list for PBXNativeTarget "YZXCircularDiagramTests" */;
+			buildPhases = (
+				BD5049D31E26202400FA4A22 /* Sources */,
+				BD5049D41E26202400FA4A22 /* Frameworks */,
+				BD5049D51E26202400FA4A22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD5049D91E26202400FA4A22 /* PBXTargetDependency */,
+			);
+			name = YZXCircularDiagramTests;
+			productName = YZXCircularDiagramTests;
+			productReference = BD5049D71E26202400FA4A22 /* YZXCircularDiagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD5049E11E26202400FA4A22 /* YZXCircularDiagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5049F11E26202500FA4A22 /* Build configuration list for PBXNativeTarget "YZXCircularDiagramUITests" */;
+			buildPhases = (
+				BD5049DE1E26202400FA4A22 /* Sources */,
+				BD5049DF1E26202400FA4A22 /* Frameworks */,
+				BD5049E01E26202400FA4A22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD5049E41E26202400FA4A22 /* PBXTargetDependency */,
+			);
+			name = YZXCircularDiagramUITests;
+			productName = YZXCircularDiagramUITests;
+			productReference = BD5049E21E26202400FA4A22 /* YZXCircularDiagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD5049B61E26202100FA4A22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yinixng;
+				TargetAttributes = {
+					BD5049BD1E26202100FA4A22 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					BD5049D61E26202400FA4A22 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD5049BD1E26202100FA4A22;
+					};
+					BD5049E11E26202400FA4A22 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD5049BD1E26202100FA4A22;
+					};
+				};
+			};
+			buildConfigurationList = BD5049B91E26202100FA4A22 /* Build configuration list for PBXProject "YZXCircularDiagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD5049B51E26202100FA4A22;
+			productRefGroup = BD5049BF1E26202200FA4A22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD5049BD1E26202100FA4A22 /* YZXCircularDiagram */,
+				BD5049D61E26202400FA4A22 /* YZXCircularDiagramTests */,
+				BD5049E11E26202400FA4A22 /* YZXCircularDiagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD5049BC1E26202100FA4A22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5049D11E26202300FA4A22 /* LaunchScreen.storyboard in Resources */,
+				BD5049CE1E26202300FA4A22 /* Assets.xcassets in Resources */,
+				BD5049CC1E26202300FA4A22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5049D51E26202400FA4A22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5049E01E26202400FA4A22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD5049BA1E26202100FA4A22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5049C91E26202200FA4A22 /* ViewController.m in Sources */,
+				BD5049C61E26202200FA4A22 /* AppDelegate.m in Sources */,
+				BD5049C31E26202200FA4A22 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5049D31E26202400FA4A22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5049DC1E26202400FA4A22 /* YZXCircularDiagramTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5049DE1E26202400FA4A22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5049E71E26202400FA4A22 /* YZXCircularDiagramUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD5049D91E26202400FA4A22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD5049BD1E26202100FA4A22 /* YZXCircularDiagram */;
+			targetProxy = BD5049D81E26202400FA4A22 /* PBXContainerItemProxy */;
+		};
+		BD5049E41E26202400FA4A22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD5049BD1E26202100FA4A22 /* YZXCircularDiagram */;
+			targetProxy = BD5049E31E26202400FA4A22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD5049CA1E26202300FA4A22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD5049CB1E26202300FA4A22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD5049CF1E26202300FA4A22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD5049D01E26202300FA4A22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD5049E91E26202500FA4A22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD5049EA1E26202500FA4A22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD5049EC1E26202500FA4A22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YZXCircularDiagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yx.YZXCircularDiagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD5049ED1E26202500FA4A22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YZXCircularDiagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yx.YZXCircularDiagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD5049EF1E26202500FA4A22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YZXCircularDiagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yx.YZXCircularDiagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZXCircularDiagram.app/YZXCircularDiagram";
+			};
+			name = Debug;
+		};
+		BD5049F01E26202500FA4A22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YZXCircularDiagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yx.YZXCircularDiagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZXCircularDiagram.app/YZXCircularDiagram";
+			};
+			name = Release;
+		};
+		BD5049F21E26202500FA4A22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YZXCircularDiagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yx.YZXCircularDiagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YZXCircularDiagram;
+			};
+			name = Debug;
+		};
+		BD5049F31E26202500FA4A22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YZXCircularDiagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yx.YZXCircularDiagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YZXCircularDiagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD5049B91E26202100FA4A22 /* Build configuration list for PBXProject "YZXCircularDiagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5049E91E26202500FA4A22 /* Debug */,
+				BD5049EA1E26202500FA4A22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5049EB1E26202500FA4A22 /* Build configuration list for PBXNativeTarget "YZXCircularDiagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5049EC1E26202500FA4A22 /* Debug */,
+				BD5049ED1E26202500FA4A22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD5049EE1E26202500FA4A22 /* Build configuration list for PBXNativeTarget "YZXCircularDiagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5049EF1E26202500FA4A22 /* Debug */,
+				BD5049F01E26202500FA4A22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD5049F11E26202500FA4A22 /* Build configuration list for PBXNativeTarget "YZXCircularDiagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5049F21E26202500FA4A22 /* Debug */,
+				BD5049F31E26202500FA4A22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD5049B61E26202100FA4A22 /* Project object */;
+}
