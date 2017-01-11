@@ -10,11 +10,11 @@
 		BD5049C31E26202200FA4A22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5049C21E26202200FA4A22 /* main.m */; };
 		BD5049C61E26202200FA4A22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5049C51E26202200FA4A22 /* AppDelegate.m */; };
 		BD5049C91E26202200FA4A22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5049C81E26202200FA4A22 /* ViewController.m */; };
-		BD5049CC1E26202300FA4A22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5049CA1E26202300FA4A22 /* Main.storyboard */; };
 		BD5049CE1E26202300FA4A22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5049CD1E26202300FA4A22 /* Assets.xcassets */; };
 		BD5049D11E26202300FA4A22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5049CF1E26202300FA4A22 /* LaunchScreen.storyboard */; };
 		BD5049DC1E26202400FA4A22 /* YZXCircularDiagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5049DB1E26202400FA4A22 /* YZXCircularDiagramTests.m */; };
 		BD5049E71E26202400FA4A22 /* YZXCircularDiagramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5049E61E26202400FA4A22 /* YZXCircularDiagramUITests.m */; };
+		BD72A93C1E2621820045AB85 /* YZXCircularDiagramView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD72A93B1E2621820045AB85 /* YZXCircularDiagramView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		BD5049C51E26202200FA4A22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BD5049C71E26202200FA4A22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BD5049C81E26202200FA4A22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BD5049CB1E26202300FA4A22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD5049CD1E26202300FA4A22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD5049D01E26202300FA4A22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD5049D21E26202400FA4A22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,8 @@
 		BD5049E21E26202400FA4A22 /* YZXCircularDiagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZXCircularDiagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5049E61E26202400FA4A22 /* YZXCircularDiagramUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZXCircularDiagramUITests.m; sourceTree = "<group>"; };
 		BD5049E81E26202500FA4A22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD72A93A1E2621820045AB85 /* YZXCircularDiagramView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZXCircularDiagramView.h; sourceTree = "<group>"; };
+		BD72A93B1E2621820045AB85 /* YZXCircularDiagramView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZXCircularDiagramView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +106,8 @@
 				BD5049C51E26202200FA4A22 /* AppDelegate.m */,
 				BD5049C71E26202200FA4A22 /* ViewController.h */,
 				BD5049C81E26202200FA4A22 /* ViewController.m */,
-				BD5049CA1E26202300FA4A22 /* Main.storyboard */,
+				BD72A93A1E2621820045AB85 /* YZXCircularDiagramView.h */,
+				BD72A93B1E2621820045AB85 /* YZXCircularDiagramView.m */,
 				BD5049CD1E26202300FA4A22 /* Assets.xcassets */,
 				BD5049CF1E26202300FA4A22 /* LaunchScreen.storyboard */,
 				BD5049D21E26202400FA4A22 /* Info.plist */,
@@ -207,6 +209,7 @@
 				TargetAttributes = {
 					BD5049BD1E26202100FA4A22 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 67FSYNPTAV;
 						ProvisioningStyle = Automatic;
 					};
 					BD5049D61E26202400FA4A22 = {
@@ -248,7 +251,6 @@
 			files = (
 				BD5049D11E26202300FA4A22 /* LaunchScreen.storyboard in Resources */,
 				BD5049CE1E26202300FA4A22 /* Assets.xcassets in Resources */,
-				BD5049CC1E26202300FA4A22 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +278,7 @@
 				BD5049C91E26202200FA4A22 /* ViewController.m in Sources */,
 				BD5049C61E26202200FA4A22 /* AppDelegate.m in Sources */,
 				BD5049C31E26202200FA4A22 /* main.m in Sources */,
+				BD72A93C1E2621820045AB85 /* YZXCircularDiagramView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +314,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BD5049CA1E26202300FA4A22 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BD5049CB1E26202300FA4A22 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BD5049CF1E26202300FA4A22 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -422,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 67FSYNPTAV;
 				INFOPLIST_FILE = YZXCircularDiagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yx.YZXCircularDiagram;
@@ -433,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 67FSYNPTAV;
 				INFOPLIST_FILE = YZXCircularDiagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yx.YZXCircularDiagram;
@@ -505,6 +502,7 @@
 				BD5049ED1E26202500FA4A22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD5049EE1E26202500FA4A22 /* Build configuration list for PBXNativeTarget "YZXCircularDiagramTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +511,7 @@
 				BD5049F01E26202500FA4A22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD5049F11E26202500FA4A22 /* Build configuration list for PBXNativeTarget "YZXCircularDiagramUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +520,7 @@
 				BD5049F31E26202500FA4A22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
