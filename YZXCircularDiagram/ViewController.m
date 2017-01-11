@@ -38,6 +38,7 @@
         _circularDiagramView.circularBackgroundColor = [UIColor grayColor];
         _circularDiagramView.titleFont = [UIFont systemFontOfSize:30.0];
         _circularDiagramView.titleColor = [UIColor blackColor];
+        _circularDiagramView.centerTitle = @"YZX";
     }
     return _circularDiagramView;
 }

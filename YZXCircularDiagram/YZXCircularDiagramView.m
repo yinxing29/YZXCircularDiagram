@@ -107,6 +107,14 @@
     self.centerView.layer.cornerRadius = self.centerView.bounds.size.width / 2.0;
 }
 
+- (void)setCenterTitle:(NSString *)centerTitle
+{
+    if (_centerTitle != centerTitle) {
+        _centerTitle = centerTitle;
+    }
+    [self.centerView setTitle:_centerTitle forState:UIControlStateNormal];
+}
+
 #pragma mark - 初始化
 - (CAShapeLayer *)circularLayer
 {

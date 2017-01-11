@@ -36,6 +36,11 @@
 @property (nonatomic, strong) UIFont                    *titleFont;
 
 /**
+ 中间文本
+ */
+@property (nonatomic, strong) NSString                  *centerTitle;
+
+/**
  字体颜色
  */
 @property (nonatomic, strong) UIColor                    *titleColor;
